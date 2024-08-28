@@ -129,7 +129,7 @@ public class Avaliacao {
             System.out.println("\nVocê digitou valores inválidos. Execute novamente.");
         }
         finally {
-            scanner.close();
+            scanner.close(); //Fecha o scanner
         }
     }
 }
